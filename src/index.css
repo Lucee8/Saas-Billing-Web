@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Playfair Display", serif;
+  --font-sans: "DM Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-saffron-50: #faf1eb;
+  --color-saffron-100: #f5e2d5;
+  --color-saffron-200: #ebc4ab;
+  --color-saffron-500: #C4581A;
+  --color-saffron-600: #a94411;
+  --color-saffron-700: #85330a;
+
+  --color-teal-50: #f1f8f9;
+  --color-teal-100: #e2f1f3;
+  --color-teal-200: #c5e3e7;
+  --color-teal-500: #1B8A9A;
+  --color-teal-600: #156c78;
+  --color-teal-700: #10525b;
+
+  --color-gold-50: #fefcf3;
+  --color-gold-100: #fbf7db;
+  --color-gold-500: #D4A017;
+  --color-gold-600: #b28511;
+
+  --color-cream-50: #FDF9F4;
+  --color-cream-100: #FDF6EC;
+  --color-cream-200: #FAECD8;
+  --color-cream-300: #f2deb9;
+}
+
+@layer base {
+  body {
+    @apply bg-cream-50 text-gray-800 font-sans antialiased selection:bg-saffron-100;
+  }
+}

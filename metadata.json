@@ -1,0 +1,6 @@
+{
+  "name": "CMH Billing Software",
+  "description": "GST-compliant offline billing & catalog management SaaS for cloud kitchens and restaurants.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
